@@ -1,0 +1,64 @@
+--- 
+layout: post
+title: Think Out Loud
+category : writing
+tags : [OPB, Think Out Loud]
+---
+{% include JB/setup %}
+
+
+With a world that talks more and listens less, Public Broadcasting becomes more essential every day. Radio shows that encourage—or even require—listeners to actively participate. Listeners of public radio need to comprehend, analyze, and conclude for themselves. The topics and broadcasters create an environment to engage the audience. But to have this conversation we need radio producers and an audience willing and able to listen.
+	
+As a middle child sandwiched between two talkers, I grew up listening. I acted as mediator, accomplice, and sounding board. I learned quickly to hear all sides of a story. More importantly I developed a curiosity and thirst for understanding how the situation came to be and what needed to be done to fix it.
+
+
+_Note: I wrote this while considering a producer position at __Think Out Loud__, a weekly show at Oregon Public Broadcasting. I decided not to apply._
+
+##A World that Talks
+
+You hear it all around us--__noise__. People like to talk. Throughout human history, starting from public lectures in ancient greece to the more than 65,000 videos uploaded to YouTube every day. With all of this power to spread the spoken word we have become great talkers. However, two sides need to be a part of every conversation. A worldwide shortage of ears hampers the growth of ideas. Never has a radio show that listens been more crucial to our survival-- for a high tide of chatter approaches.
+
+>"The radio show that listens."
+
+That is the first sentence of the description online for ___Think Out Loud___. Amazing.
+
+
+###An Evolution of Senses
+Radio came first. The first time people could share with the one person or the world in real time. Images of the first radio broadcasts show families sitting around together, just listening. That's it! Listening.
+
+Then a fancy new technology shook the world. Television. The entrainment became visual. Yes, listening still happened but everyone focused on the image on the screen. 
+
+And finally the web. Text, audio, and video all together. Now each one of our senses works harder. As I write this an ad on the OPB website flashes from one image to another, drawing me in--drawing me away. 
+
+Walking by a window and seeing a family sitting around with no TV, no computers, just listening-- one would feel perplexed. How can you get be entertained by just noise with so many other exiting mediums of information available. Unfortunately, a lot of what comes through the radio is just that-- noise. 
+
+###Growing Up On PB
+
+As a kid I consumed a constant stream of PB, no not peanut butter, __Public Broadcasting__. Not by choice really. My dad starting working in public radio straight out of college and has not stopped since. Every morning the kitchen filled with the latest news from Colorado Public Radio. In the car heading to soccer games on the weekend, Tom and Ray escorted us bestowing a fountain of car knowledge and a good measure of silly antics. The voices of public radio never strayed too far from my ears.
+
+####More Noise
+Once again I am distracted. My headphones sit on the desk unattended. No music is playing, no radio streaming, silence--__focus__. Then a quiet noise, and another, until finally a blast of advertisements comes through, deftly achieving their goal of stealing my attention.  Not the OPB website this time, but a thesaurus-- the word _chatter_ waiting for me to find synonyms.
+
+
+Once I got the freedom of my own car it meant my own radio. I made a beeline for stations above 91.9 <small>FM</small>. Ahh-- the freedom of commercial radio. Finally, music I liked and exciting radio personalities. But quickly I realized something, a lot of the talk radio announcers are drawn to radio to do just that, talk. With this type of radio, listeners passively listen as the broadcaster spits words at them. Public radio does it differently.
+
+Yes, public radio announcers talk too. But really they serve as a guide, drawing the listener in to the latest story, encouraging them to analyze the topic, and reach their own conclusion. Public radio requires active listeners, almost as if an intangible conversation occurs between the host and the audience. But of course, this intangible conversation becomes real with ___Think Out Loud___.
+
+
+##Me and _Think Out Loud_
+I graduated from Reed College two years ago with a major very close to journalism-- Math and Economics. Wait a minute, that may be the opposite of journalism. The last two years I worked developing online college textbooks. Getting a little warmer perhaps. Yet when I found the posting for producer of _Think Out Loud_ I jumped from my chair almost breaking some dishes in the process.
+
+_Think Out Loud_ represents more than just a radio show to me. As many Reed students do, I got extremely focused on my studies for my final two years--often neglecting anything occurring outside of Reed. But every weekday _Think Out Loud_ provided me with a connection to discussion on topics critical to the Northwest and beyond.
+
+_All Things Considered_ or _Morning Edition_ would have kept me better informed on the latest current events. Those shows provided as much breadth of topics as one could want. _Think Out Loud_ drew my attention because of the same reason I enjoy math and economics. The depth of discussion helps to answer the question of ___'Why?'___ not just focusing on the ___'What'___. If I picked out one thing that excited me most throughout my life it would be understanding how and why things work as they do. I am fascinated by the world.
+
+###Producing is More Than Just Why
+
+But _Think Out Loud_ does not need a producer who simply loves to learn things. A radio show that listens cannot be a stream of knowledge spewing from one persons's mind. 
+
+As a producer I will bring enthusiasm towards creating constructive discussion on the topics affecting the Northwest and the world. By listening and engaging with the audience and other staff I will encourage new ideas and solutions to age-old problems. I will embrace of all forms of communication cultivating the scope and profundity _Think Out Loud_ represents. 
+
+Most importantly, as with my approach to anything, I will do so with utmost kindness and compassion-- nurturing conversation with people who would otherwise hesitate.
+
+##Thank You
+Thank you, _Think Out Loud_, for helping to expand my understanding of the world. I look forward to your continued exploration of topics that shape our life.

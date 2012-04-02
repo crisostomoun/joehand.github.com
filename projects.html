@@ -1,0 +1,16 @@
+---
+layout: page
+title: Projects
+header: Posts By Category
+group: navigation
+---
+{% include JB/setup %}
+
+
+{% for category in site.categories limit:1 %} 
+  <ul>
+    {% assign pages_list = category[1] %}  
+    {% include JB/pages_list %}
+  </ul>
+{% endfor %}
+
