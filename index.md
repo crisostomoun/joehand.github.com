@@ -2,13 +2,14 @@
 layout: page
 title: Hello World!
 tagline: Welcome to my _temporary_ internet home. Perhaps it will be temporarily permanent.
+class: home
 ---
 {% include JB/setup %}
 
 {{ page.tagline }}
 
 
-<a href="/about.html"><pre>Joe Hand</pre></a>
+<a href="/about/"><pre>Joe Hand</pre></a>
 
 >	Resident of Portland, Oregon.
 
