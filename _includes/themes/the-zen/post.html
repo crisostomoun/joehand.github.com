@@ -1,34 +1,18 @@
 
-<header class="the-header">
-	<div class="unit-head">
-		<div class="unit-inner unit-head-inner">
-			<p class="logo"><a href="{{ HOME_PATH }}">{{ site.title }}</a></p>
-			<nav class="nav-global">
-				<ul>
-					<li class="page"><a href="/archive/">archive</a></li>
-					<li class="page"><a href="/pages/">pages</a></li>
-					<li class="category"><a href="/categories/">categories</a></li>
-				</ul>
-			</nav>
-		</div><!-- unit-inner -->
-	</div><!-- unit-head -->
-</header>
 
-<article class="unit-article layout-post">
-	<div class="unit-inner unit-article-inner">
+<article class="layout-post">
 		<div class="content">
-			<header>
-				<div class="unit-head">
-					<div class="unit-inner unit-head-inner">
+			<header class="wrapper">
 						<h1 class="h2 entry-title">{{ page.title }}</h1>
-					</div><!-- unit-inner -->
-				</div><!-- unit-head -->
+						<span class="month"><abbr>{{ page.date | date: '%B' }}</abbr></span>
+						<span class="year">{{ page.date | date: '%Y' }}</span>
 			</header>
 
-			<div class="bd">
+			<section  class="wrapper">
 				<div class="entry-content">
 					{{ content }}
-					<div class="meta">
+					<div class="meta" id="twoway">
+						<section class="wrapper">
 						<p class="date-publish">
 							Published: 
 							<date class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" pubdate>
@@ -37,6 +21,9 @@
 							<span class="year">{{ page.date | date: '%Y' }}</span>
 							</date>
 						</p>
+						
+					</section>
+					<section class="wrapper">
 						<ul class="list-category list-linear">
 							<li class="list-head">category: </li>
 							{% assign categories_list = page.categories %}
@@ -47,6 +34,7 @@
 							{% assign tags_list = page.tags %}
 							{% include JB/tags_list %}
 						</ul>
+						</section>
 					</div><!-- meta -->
 				</div><!-- entry-content -->
 				<div class="misc-content">
@@ -54,9 +42,8 @@
 					{% include JB/comments %}
 				</div><!-- misc-content -->
 				
-			</div><!-- bd -->
-			<footer class="unit-foot">
-				<div class="unit-inner unit-foot-inner">
+			</section><!--  -->
+			<footer class="unit-foot wrapper">
 					<nav class="pagination">
 						<ul>
 							{% if page.previous %}
@@ -77,5 +64,4 @@
 			</footer>
 
 		</div><!-- content -->
-	</div><!-- unit-inner -->
 </article>

@@ -37,7 +37,7 @@ a {
 }
 
 /* HIGHLIGHTER */
-pre { margin-bottom: @line-height / @em; }
+pre { margin-bottom: @line / @em; }
 pre {
 	
   	text-shadow: 1px 1px 3px #888;
@@ -47,7 +47,7 @@ pre {
 	font-family: "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
 	margin-left: 0;
 	margin-right: 0;
-	padding: @line-height / @em;
+	padding: @line / @em;
 	overflow: auto;
 	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.6);
 	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.6);
@@ -78,22 +78,22 @@ pre {
 
 /* MAIN
 --------------------------------------------------------------------------------- */
-.unit-article {
+.content {
 
 		header {
 			background: url('@{noise-100-90-5}');
 			background-repeat: repeat;
 			background-position: 0 0;
 			background-color: @header;
-			margin-bottom: @line-height / @em;
-			padding-top: (@line-height / @em);
-			padding-bottom: (@line-height / @em) ;
+			margin-bottom: @line / @em;
+			padding-top: (@line / @em);
+			padding-bottom: (@line / @em) ;
 			h1 {
 				color: @main-font-color;
 				margin-top: 0;
 				margin-bottom: 0;
 			}
-		} // .article-inner header
+		} // .content header
 
 		.entry-content {
 			h2, h3, h4, h5, h6 {
@@ -194,7 +194,7 @@ pre {
 			text-transform: capitalize;
 		}
 
-		.unit-foot {
+		.the-footer {
 			background: url('@{noise-100-90-5}') repeat 0 0 #4d4d4d;
 			color: #fafafa;
 			a {
@@ -202,8 +202,8 @@ pre {
 				&:visited { color: #fafafa; }
 				&:hover { color: #ffffff; }
 			}
-			padding-top: @line-height / @em;
-			padding-bottom: @line-height / @em;
+			padding-top: @line / @em;
+			padding-bottom: @line / @em;
 			position: relative;
 			nav ul {
 				list-style: none;
@@ -214,83 +214,7 @@ pre {
 
 } // .the-article
 
-/* post & page */
-.layout-page {
-	.tag_box {
-		background: url('@{noise-100-90-5}') repeat 0 0 @subtle;
-		padding: (@line-height / @em) / 2;
-		list-style: none;
-		-webkit-border-radius: 3px;
-		-moz-border-radius: 3px;
-		border-radius: 3px;
-		-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
-		-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.4);
-		-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.4);
-		box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.4);
-		li {
-			display: inline;
-			line-height: normal;
-			vertical-align: middle;
-		}
-		a {
-			background-color: @green;
-			float: left;
-			border: 1px solid darken(@green, 30%);
-			padding: 3px 6px 3px 6px;
-			-webkit-border-radius: 3px;
-			-moz-border-radius: 3px;
-			border-radius: 3px;
-			margin: 5px;
-			-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
-			text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.4);
-			-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-			-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-			box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-			-webkit-transition-duration: 0.2s;
-			-moz-transition-duration: 0.2s;
-			transition-duration: 0.2s;
-			-webkit-user-select:none;
-			-moz-user-select:none;
-			-ms-user-select:none;
-			user-select:none;
-			&:link {}
-			&:active {
-				-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
-				-moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
-				box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
-				background: darken(@green, 40%);
-				border: solid darken(@green, 40%);
-			}
-			&:hover {
-				background-color: darken(@green, 10%);
-				border: 1px solid darken(@green, 40%);
-				span {
-					background-color: darken(#fafafa, 10%);
-					border: 1px solid darken(@green, 10%);
-				}
-			}
-		}
-		span {
-			background-color: #fafafa;
-			border: 1px solid @green;
-			padding: 1px 5px;
-			-webkit-border-radius: 10px;
-			-moz-border-radius: 10px;
-			border-radius: 10px;
-			color: #1a1a1a;
-			display: inline-block;
-			position: relative;
-			vertical-align: middle;
-			top: -2px;
-			font-weight: bold;
-			font-size: 10px;
-			-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-			-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-			box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-		}
 
-	}
-} // .page-post
 
 /* FOOTER
 ----------------------------------------------- */
@@ -299,7 +223,7 @@ pre {
 	background-color: rgba(21, 25, 25, 0.8);
 	color: #fafafa;
 	color: rgba(250, 250, 250, 0.8);
-	padding-bottom: @line-height / @em;
+	padding-bottom: @line / @em;
 	a {
 		&:link {
 			color: @accent-color;
@@ -325,7 +249,220 @@ pre {
 	}
 }
 
-@import "_layout.less";
-@import "index.less";
+
+/*
+*
+*  Four-column grid active
+*  ----------------------------------------
+*  Margin   | #  1   2   3   4   |   Margin
+*  5.55555% | %  25  50  75  100 | 5.55555%
+*
+*/
+
+
+h1, h2 {
+	margin: (24/26*1em) 0 (36/26*1em);
+}
+
+h2 {
+	font-weight: normal;
+}
+
+h3 {
+	margin: (24/@em) 0 (24/@em);
+}
+
+/*
+*  Simple elastic gutters
+*  Note: box-sizing will not work in IE6-7
+*/
+
+.wrapper {
+	padding: 0 (@line/2)/@em;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+.content {
+	margin: 0 @column;
+}
+
+
+#twoway {
+	margin: 0 @column;
+}
+
+/*
+*
+*  Fixes for IE6-8
+*  http://jonikorpi.com/leaving-old-IE-behind/
+*
+*/
+
+.ie body {
+	width: 640/@em;
+	margin: 0 auto;
+	font-size: (@font-size + 1) / @em;
+}
+
+.ie h1 {
+	.huge();
+	margin: (48/42*1em) 0 (24/42*1em);
+}
+
+/* @media screen and (min-width: 640px) */
+@media screen and (min-width: 40em) {
+	
+	body {
+		/* Zoom baseline grid to 17/16 = 1.0625 */
+		font-size: (@font-size + 1) / @em;
+	}
+	
+	h1 {
+		.huge();
+		margin: (48/42*1em) 0 (24/42*1em);
+	}
+	
+}
+
+
+/*
+*
+*  Eight-column grid active
+*  ----------------------------------------------------------------------
+*  Margin   | #  1     2     3     4     5     6     7     8   |   Margin
+*  5.55555% | %  12.5  25.0  37.5  50.0  62.5  75.0  87.5  100 | 5.55555%
+*	
+*
+*/
+
+/* @media screen and (min-width: 720px) */
+@media screen and (min-width: 45em) {
+	
+	body {
+		/* Reset baseline grid to 16/16 = 1 */
+		font-size: (@font-size) / @em;
+	}
+	
+	#twoway .wrapper {
+		float: left;
+		width: 50%;
+	}
+	
+	
+}
+
+
+/* @media screen and (min-width: 888px) */
+@media screen and (min-width: 55.5em) {
+	
+	body {
+		/* Zoom baseline grid to 17/16 = 1.0625 */
+		font-size: (@font-size + 1) / @em;
+	}
+}
+
+
+/* @media screen and (min-width: 984px) */
+@media screen and (min-width: 61.5em) {
+	
+	body {
+		/* Reset baseline grid to 16/16 = 1.0 */
+		font-size: (@font-size) / @em; 
+	}
+	
+	
+	.content, .the-header, #twoway {
+		margin: 0 @column*3;
+	}
+
+}
+
+
+/* @media screen and (min-width: 1200px) */
+@media screen and (min-width: 75em) {
+	
+	body {
+		/* Zoom baseline grid to 17/16 = 1.0625 */
+		font-size: (@font-size + 1) / @em;
+	}
+	
+}
+
+
+/* @media screen and (min-width: 1392px) */
+@media screen and (min-width: 87em) {
+	
+	body {
+		/* Reset baseline grid to 16/16 = 1.0 */
+		font-size: (@font-size) / @em;
+	}
+	
+	.content, .the-header, #twoway {
+		margin: 0 @column*5;
+	}
+	
+	
+}
+
+
+/* @media screen and (min-width: 1680px) */
+@media screen and (min-width: 105em) {
+	
+	body {
+		/* Zoom baseline grid to 17/16 = 1.0625 */
+		font-size: (@font-size + 1) / @em;
+	}
+	
+}
+
+
+/*
+*
+*  Sixteen-column grid active
+*  ----------------------------------------------------------------------------------------------------------------------
+*  Margin   | #  1     2     3     4     5     6     7     8     9     10    11    12    13    14    15    16  |   Margin
+*  5.55555% | %  6.25  12.5  18.75 25.0  31.25 37.5  43.75 50.0  56.25 62.5  68.75 75.0  81.25 87.5  93.75 100 | 5.55555%
+*	
+*
+*/
+
+/* @media screen and (min-width: 1872px) */
+@media screen and (min-width: 117em) {
+	
+	.content, .the-header, #twoway {
+		margin: 0 @column*5;
+	}
+	
+	.content, .the-header .wrapper {
+		width: 37.5%;
+	}
+	
+	
+	
+	#twoway .wrapper {
+		width: 25%;
+	}
+	
+	#twoway .wrapper:first-child {
+		margin-left: 25%;
+	}
+	
+}
+
+
+/* @media screen and (min-width: 2080px) */
+@media screen and (min-width: 130em) {
+
+	body {
+		/* Zoom baseline grid to 18/16 = 1.125 */
+		font-size: (@font-size + 2) / @em;
+		max-width: 2560/@em;
+	}
+	
+}
+
+
 @import "syntaxhighlighter.css";
 @import "helper.css";

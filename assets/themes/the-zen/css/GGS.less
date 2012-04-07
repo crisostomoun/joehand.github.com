@@ -153,6 +153,99 @@ img {
 	-ms-interpolation-mode: bicubic;
 }
 
+/*
+Color schemes
+
+No styleguide reference.
+*/
+
+/* solarized - http://j.mp/s9Xuw9
+
+@base03:    #002b36;
+@base02:    #073642;
+@base01:    #586e75;
+@base00:    #657b83;
+@base0:     #839496;
+@base1:     #93a1a1;
+@base2:     #eee8d5;
+@base3:     #fdf6e3;
+@yellow:    #b58900;
+@orange:    #cb4b16;
+@red:       #dc322f;
+// @magenta:   #d33682;
+@violet:    #6c71c4;
+@blue:      #268bd2;
+@cyan:      #2aa198;
+@green:     #859900;
+
+*/
+
+// Tomorrow Night - http://j.mp/wvO4U4
+
+@base03:    #2d2d2d;
+@base02:    #393939;
+@base01:    #515151;
+@base0:     #cccccc;
+@subtle:    #999999;
+@yellow:    #ffcc66;
+@orange:    #f99157;
+@red:       #f2777a;
+@violet:    #cc99cc;
+@blue:      #6699cc;
+@cyan:      #66cccc;
+@green:     #99cc99;
+@header: #A6C6E6;
+
+// Texture
+
+@noise-100-90-5: "/assets/themes/the-zen/skin/100-90-5-monochrome.png"; // http://noisepng.com/
+@cross-hair: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAR0lEQVQYGYVOQQoAIAizHuJXpafqR4wFCw9Ggji2OSbubpkp3UI7Qmcidz9JIKniAYITEQasqovcJHhelquxFf9LVjfTeKFtWPOYLQ+xHqUAAAAASUVORK5CYII="; // http://ptrn.it/AmYV5d
+
+/* Junction Font
+ * http://www.theleagueofmoveabletype.com/
+ * Using for Logo and headers
+*/
+
+@font-face {
+    font-family: 'junctionregularRegular';
+    src: url('/assets/themes/the-zen/font/Junction-webfont.eot');
+    src: url('/assets/themes/the-zen/font/Junction-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/themes/the-zen/font/Junction-webfont.woff') format('woff'),
+         url('/assets/themes/the-zen/font/Junction-webfont.ttf') format('truetype'),
+         url('/assets/themes/the-zen/font/Junction-webfont.svg#junctionregularRegular') format('svg');
+    font-weight: normal !important;
+    font-style: normal;
+}
+
+/*
+LESS helper
+*/
+
+/*
+List modules
+.list-linear  - list line up horizontally
+
+No styleguide reference.
+*/
+
+.list-linear {
+	letter-spacing: -0.31em;
+	*letter-spacing: normal;
+	word-spacing: -0.43em;
+	list-style: none;
+	padding-left: 0;
+	li {
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		line-height: normal;
+		letter-spacing: normal;
+		margin-right: 16px;
+		word-spacing: normal;
+		vertical-align: middle;
+		&:last-child { margin-right: 0; }
+	}
+}
 
 /*
 *
@@ -161,9 +254,26 @@ img {
 *
 */
 
+
+/*
+Font families
+
+No styleguide reference.
+*/
+
+@font-stack: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
+@webfont: junctionregularRegular, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
+
+/*
+Base font size should be larger than 16px.
+Calculation should be done via  http://j.mp/rNg5uA
+
+No styleguide reference.
+*/
+
 body {
-	/* 16px / 24px */
-	font-size: @font-size / 16 * 1em; 
+	font-family: @font-stack;
+	font-size: @font-size / 16*1em;
 	line-height: @line / @em;
 }
 
@@ -203,207 +313,3 @@ body {
 	line-height: (@line*5) / 110 * 1em;
 }
 
-
-/*
-*
-*  Four-column grid active
-*  ----------------------------------------
-*  Margin   | #  1   2   3   4   |   Margin
-*  5.55555% | %  25  50  75  100 | 5.55555%
-*
-*/
-
-header, #twoway {
-	margin: 0 @column;
-}
-
-h1, h2 {
-	margin: (24/26*1em) 0 (36/26*1em);
-}
-
-h2 {
-	font-weight: normal;
-}
-
-h3 {
-	margin: (24/@em) 0 (24/@em);
-}
-
-/*
-*  Simple elastic gutters
-*  Note: box-sizing will not work in IE6-7
-*/
-
-.wrapper {
-	padding: 0 (@line/2)/@em;
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-			box-sizing: border-box;
-}
-
-
-/*
-*
-*  Fixes for IE6-8
-*  http://jonikorpi.com/leaving-old-IE-behind/
-*
-*/
-
-.ie body {
-	width: 640/@em;
-	margin: 0 auto;
-	font-size: (@font-size + 1) / @em;
-}
-
-.ie h1 {
-	.huge();
-	margin: (48/42*1em) 0 (24/42*1em);
-}
-
-/* @media screen and (min-width: 640px) */
-@media screen and (min-width: 40em) {
-	
-	body {
-		/* Zoom baseline grid to 17/16 = 1.0625 */
-		font-size: (@font-size + 1) / @em;
-	}
-	
-	h1 {
-		.huge();
-		margin: (48/42*1em) 0 (24/42*1em);
-	}
-	
-}
-
-
-/*
-*
-*  Eight-column grid active
-*  ----------------------------------------------------------------------
-*  Margin   | #  1     2     3     4     5     6     7     8   |   Margin
-*  5.55555% | %  12.5  25.0  37.5  50.0  62.5  75.0  87.5  100 | 5.55555%
-*	
-*
-*/
-
-/* @media screen and (min-width: 720px) */
-@media screen and (min-width: 45em) {
-	
-	body {
-		/* Reset baseline grid to 16/16 = 1 */
-		font-size: (@font-size) / @em;
-	}
-	
-	#twoway .wrapper {
-		float: left;
-		width: 50%;
-	}
-	
-}
-
-
-/* @media screen and (min-width: 888px) */
-@media screen and (min-width: 55.5em) {
-	
-	body {
-		/* Zoom baseline grid to 17/16 = 1.0625 */
-		font-size: (@font-size + 1) / @em;
-	}
-}
-
-
-/* @media screen and (min-width: 984px) */
-@media screen and (min-width: 61.5em) {
-	
-	body {
-		/* Reset baseline grid to 16/16 = 1.0 */
-		font-size: (@font-size) / @em; 
-	}
-	
-	header, #twoway {
-		margin: 0 @column*3;
-	}
-
-}
-
-
-/* @media screen and (min-width: 1200px) */
-@media screen and (min-width: 75em) {
-	
-	body {
-		/* Zoom baseline grid to 17/16 = 1.0625 */
-		font-size: (@font-size + 1) / @em;
-	}
-	
-}
-
-
-/* @media screen and (min-width: 1392px) */
-@media screen and (min-width: 87em) {
-	
-	body {
-		/* Reset baseline grid to 16/16 = 1.0 */
-		font-size: (@font-size) / @em;
-	}
-	
-	header, #twoway {
-		margin: 0 @column*5;
-	}
-	
-}
-
-
-/* @media screen and (min-width: 1680px) */
-@media screen and (min-width: 105em) {
-	
-	body {
-		/* Zoom baseline grid to 17/16 = 1.0625 */
-		font-size: (@font-size + 1) / @em;
-	}
-	
-}
-
-
-/*
-*
-*  Sixteen-column grid active
-*  ----------------------------------------------------------------------------------------------------------------------
-*  Margin   | #  1     2     3     4     5     6     7     8     9     10    11    12    13    14    15    16  |   Margin
-*  5.55555% | %  6.25  12.5  18.75 25.0  31.25 37.5  43.75 50.0  56.25 62.5  68.75 75.0  81.25 87.5  93.75 100 | 5.55555%
-*	
-*
-*/
-
-/* @media screen and (min-width: 1872px) */
-@media screen and (min-width: 117em) {
-	
-	header, #twoway {
-		margin: 0 @column*1;
-	}
-	
-	header .wrapper {
-		width: 37.5%;
-		margin-left: 25%;
-	}
-	
-	#twoway .wrapper {
-		width: 25%;
-	}
-	
-	#twoway .wrapper:first-child {
-		margin-left: 25%;
-	}
-	
-}
-
-
-/* @media screen and (min-width: 2080px) */
-@media screen and (min-width: 130em) {
-
-	body {
-		/* Zoom baseline grid to 18/16 = 1.125 */
-		font-size: (@font-size + 2) / @em;
-		max-width: 2560/@em;
-	}
-	
-}

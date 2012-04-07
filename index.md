@@ -20,7 +20,6 @@ class: home
 	
 
 
-<!---
 
 	From My Own Two Hands
 
@@ -40,4 +39,3 @@ class: home
 </ul>
 	{% endfor %}
 
-	-->
