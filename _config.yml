@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:categories/:year/:month/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
@@ -10,12 +10,20 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Joe Hand
-tagline: Information Explorer
+tagline: 'Worker at <a href="http://periscopic.com">Periscopic</a>. Information Explorer. Average Joe.'
 author :
   name : Joe Hand
   email : joe@joehand.org
   github : joehand
   twitter : hand_joe
+  linkedin: joeahand
+  feedburner: JoeHand
+
+#Theme variables
+color: 'rgb(189,11,72)'
+logo: /assets/img/hand.png
+github_repo: joehand.github
+
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +33,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://joehand.github.com
+production_url : http://joehand.org
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -69,9 +77,9 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change theme here if needed.
   #
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
+  archive_path: /archive/
+  categories_path : /categories/
+  tags_path : /tags/
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
@@ -82,14 +90,14 @@ JB :
     disqus :
       short_name : jekyllbootstrap
     livefyre :
-      site_id : 123
+      site_id :
     intensedebate :
-      account : 123abc
+      account :
     facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+      appid :
+      num_posts:
+      width:
+      colorscheme: 
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.

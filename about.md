@@ -1,9 +1,12 @@
 ---
 layout: page
-title: "About Joe"
-description: ""
+title: About
+header: About Joe
+group: navigation
 ---
 {% include JB/setup %}
+
+<div id="headshot"><img src="/assets/img/joe-hand.jpg" alt="Joe Hand"></div>     
 
 I am a 24 year old living in Portland, Oregon. I manage all things project related at [Periscopic](http://periscopic.com), a socially-conscious data visualization company. My curious mind finds many things intriguing. Yet my thoughts usually have something to do with information, urban planning/transportation, economics, and morality.
 

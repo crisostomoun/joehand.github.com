@@ -1,7 +1,7 @@
 ---
 layout: post
 category : thoughts
-tags : [commons, featured]
+tags : [commons]
 ---
 {% include JB/setup %}
 
@@ -38,13 +38,6 @@ donations stay local to each commons.
 
 Note: some portion of either the subscriptions or donations would go towards the operating costs
 for the entire engine.
-
-__how to use pods in the commons?__ tip people? you can tip when you like something in a public pod.
-this "tip" gets reflected as a credit in the author's account. the author can then spend it to buy a
-book or donate it to another.
-
-everyone has a personal account. you can add money whenever. commons groups would also have accounts
-to buy new material. need to figure out how to manage group accounts.
 
 
 notes from __a global education challenge__: "mutual alignment of education, business and economic
