@@ -126,6 +126,7 @@ a.logo {
 
 section#content {
 	border-left: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
 	min-height: 800px;
 	background-color: rgba(255, 255, 255, .95);
 	position: relative;
@@ -251,6 +252,10 @@ article {
 		margin-right:10px;
 	}
 	
+	li.list-head {
+		margin-right:0px;
+	}
+	
 	
 	
 }
@@ -281,6 +286,10 @@ article {
 	}
 }
 
+.vcard2 li {
+	display:inline-block;
+	padding-right:10px;
+}
 
 .nav-global {
 	text-transform:lowercase;
@@ -293,6 +302,16 @@ article {
 	
 	li {
 		margin:5px 0 0;
+	}
+	
+	.active {
+		opacity:0.5;
+		
+		&:hover {
+			opacity:1;
+		}
+		
+		
 	}
 }
 

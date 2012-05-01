@@ -2,7 +2,7 @@
 <section id="content">
 	<header>
 				<h2>{{ page.title }}</h2>
-				<h3 class="date"><date class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" pubdate>{{ page.date | date: "%B %d, %Y" }}</date></h3>
+				<h3 class="date"><date class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" pubdate>Published {{ page.date | date: "%B %d, %Y" }}</date></h3>
 				<nav class="nav-global">
 					<ul class="nav">
 				            {% assign pages_list = site.pages %}
