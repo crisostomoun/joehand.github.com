@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Welcome, again"
+title: "Testing Prose.io"
 description: ""
-category: writing
-tags: [featured]
-published: false
+category: thoughts
+tags: [featured, prose]
+published: true
 ---
 
 {% include JB/setup %}
