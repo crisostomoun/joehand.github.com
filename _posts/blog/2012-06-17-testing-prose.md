@@ -1,6 +1,9 @@
 ---
-layout: "default"
-published: true
+layout: post
+title: "Welcome, again"
+description: ""
+category: writing
+tags: [featured]
 ---
 
 {% include JB/setup %}
