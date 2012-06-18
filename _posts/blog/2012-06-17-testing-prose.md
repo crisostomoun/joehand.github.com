@@ -1,5 +1,9 @@
 ---
-layout: "default"
+layout: post
+title: "Welcome, again"
+description: ""
+category: writing
+tags: [featured]
 published: false
 ---
 
