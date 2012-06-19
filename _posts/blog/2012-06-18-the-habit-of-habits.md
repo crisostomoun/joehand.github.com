@@ -1,5 +1,10 @@
 ---
 
+layout: post 
+title: "Testing Prose.io" 
+description: "" 
+category: thoughts 
+tags: [featured, habits]
 published: false
 ---
 
