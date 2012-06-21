@@ -4,7 +4,7 @@ title: "It's my birthday!"
 description: "" 
 category: thoughts 
 tags: [featured, birthday]
-published: false
+published: true
 ---
 
 Today marks a quarter century since I was born. It also marks the first day of summer, though this year was one of the rare years the my birthday and the solstice did not coincide. 
