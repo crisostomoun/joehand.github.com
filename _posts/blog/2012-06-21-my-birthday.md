@@ -8,6 +8,9 @@ published: true
 ---
 
 
+{% include JB/setup %}
+
+
 Today marks a quarter century since I was born. It also marks the first day of summer, though this year was one of the rare years the my birthday and the solstice did not coincide. 
 
 I joined some friends for a beautiful picnic last night in Portland's Rose Garden. Great friends, great food, nice weather, flowers, and some good wine. Not much more you need for a good birthday celebration.
@@ -19,6 +22,7 @@ Happy first day of summer!
 =)
 
 Also - just for the record - biking home with a bunch of ballons tied to your back is pretty fun. I would recommend it.
+
 
 
 
