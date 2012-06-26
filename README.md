@@ -1,4 +1,11 @@
-# ME!
+---
 
-Personal Page for Joe Hand. I am trying out the jekyll bootstrap with the_minimal theme. the theme has been changed a bit. more to come in the future with the customization.
+published: false
+---
+
+# My Personal Website
+
+This repo holds the page for joehand.org. 
+
+I used Jekyll Bootstrap and created a theme using the styling of Svbtle.
 
