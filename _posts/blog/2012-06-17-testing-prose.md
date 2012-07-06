@@ -28,7 +28,3 @@ __ Don't have a Jekyll blog yet? __ Go ahead and fork this one, check out Jekyll
 
 Looking forward to more of Prose in the future.
 
-
-
-
-
