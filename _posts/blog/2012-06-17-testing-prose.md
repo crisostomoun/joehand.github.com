@@ -21,9 +21,9 @@ Prose also gives you the handy markdown cheatsheet and preview. Both things I wa
 
 ##Setting Up Your Blog to use Prose
 
-__Already have a Jekyll blog that uses GitHub Pages?__ Nice! Just authorize Prose.io to use your GitHub account and you are set. Create a new post, save, mark it as published when you are ready.
+**Already have a Jekyll blog that uses GitHub Pages?** Nice! Just authorize Prose.io to use your GitHub account and you are set. Create a new post, save, mark it as published when you are ready.
 
-__Don't have a Jekyll blog yet?__ Go ahead and fork this one, check out Jekyll Boostrap, or choose one of the many already on GitHub. Once you have your own repository, just head to Prose.io and browse your new blog! Boom.
+**Don't have a Jekyll blog yet?** Go ahead and fork this one, check out Jekyll Boostrap, or choose one of the many already on GitHub. Once you have your own repository, just head to Prose.io and browse your new blog! Boom.
 
 
 Looking forward to more of Prose in the future.
