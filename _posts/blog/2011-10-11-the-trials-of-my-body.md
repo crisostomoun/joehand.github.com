@@ -39,4 +39,4 @@ Thankfully my professor had the kindness to help me see the bright side of it al
 
 >	I guess there is one silver lining. At least Hum 110 has prepared you to understand the metaphorical significance of your injury. 
 >
->	___Kim Clausing___
+>	***Kim Clausing***

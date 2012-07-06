@@ -11,11 +11,11 @@ The book Strength Finder 2.0 develops the idea of maximizing productivity throug
 
 ##The Strength Equation
 
-In the book, Strength Finder 2.0, Tom Rath introduces the three concepts of __talent, investment,__ and __strength__. By _investing_ in our _talents_ we create _strengths_. He argues that spending time developing our weaknesses gives less return than developing our talents. 
+In the book, Strength Finder 2.0, Tom Rath introduces the three concepts of **talent, investment,** and **strength**. By *investing* in our *talents* we create *strengths*. He argues that spending time developing our weaknesses gives less return than developing our talents. 
 
 Our economy drastically underutilizes our skills because we fail to focus on our strengths. When you manager fails to focus on your strength you are likely to be disengaged at work. By investing in our weaknesses employers increase the chances that we will become bored and inefficient at work. Rather, Rath suggests we need to focus on our talents to become the best we can be.
 
->You __cannot__ be anything you want to be -- but you __can__ be a lot more of who you already are.
+>You **cannot** be anything you want to be -- but you **can** be a lot more of who you already are.
 
 The key is thinking in terms of talents and strengths, not knowledge and skills. By applying your talents to your interests you can build strengths, regardless of the area of study.
 
@@ -23,7 +23,7 @@ The key is thinking in terms of talents and strengths, not knowledge and skills.
 
 When we think of the word talent we often think of people who are exceptionally good at something-- Michael Jordan was a talented basketball player or Jimi Hendrix was a talented guitarist. Thinking about your own life, you may be a talented cook or writer. The book defines talent slightly differently from this common conception.
 
-Instead of our common definition, consider talent "a natural way of thinking, feeling, or behaving." While this covers a great deal, I want to focus on the ___natural___ part of the definition. 
+Instead of our common definition, consider talent "a natural way of thinking, feeling, or behaving." While this covers a great deal, I want to focus on the ***natural*** part of the definition. 
 
 People relate to and understand the world through different means. These ways to relate, or talents, are innate to who we are -- our natural talents. Rather than forcing everyone to conform to one way of thinking, by strengthening our natural abilities we can achieve more and be happier in the process.
 
@@ -47,12 +47,12 @@ The online assessment takes about thirty minutes and is only available if you bu
 *	Intellection
 *	Responsibility
 
-The rest of the post I will be trying to understand more about myself, my strengths, and how I can apply them. None of them were super surprising. The relator I quested a bit until reading further into my personal summary, then it made sense. There are three sections of the report: ___awareness, application___, and ___achievement___. I will discuss each theme, then move on to the next section.
+The rest of the post I will be trying to understand more about myself, my strengths, and how I can apply them. None of them were super surprising. The relator I quested a bit until reading further into my personal summary, then it made sense. There are three sections of the report: ***awareness, application***, and ***achievement***. I will discuss each theme, then move on to the next section.
 
 ##Awareness 
 ###Learner
 
-___Generic Description:___
+***Generic Description:***
 
 >People who are especially talented in the Learner theme have a great desire to learn and want to continuously improve. In particular, the process of learning, rather than the outcome, excites them.
 
@@ -78,7 +78,7 @@ For learner, I need to work on developing my ability to learn from other people 
 
 ###Futuristic
 
-___Generic Description:___
+***Generic Description:***
 
 >People who are especially talented in the Futuristic theme are inspired by the future and what could be. They inspire others with their visions of the future.
 
@@ -104,7 +104,7 @@ Definitely the part of futuristic that I struggle with. I need to balance having
 
 ###Relator
 
-___Generic Description:___
+***Generic Description:***
 
 >People who are especially talented in the Relator theme enjoy close relationships with others. They find deep satisfaction in working hard with friends to achieve a goal.
 
