@@ -40,12 +40,12 @@ Note: some portion of either the subscriptions or donations would go towards the
 for the entire engine.
 
 
-notes from __a global education challenge__: "mutual alignment of education, business and economic
+Notes from **a global education challenge**: "mutual alignment of education, business and economic
 growth, ... surprising that the education and corporate philanthropy communities frequently operate
 on separate, parallel tracks and speak different languages, even though they share similar social
 goals."
 
-companies tend to invest in small amounts and do so very strategically. more support may be found
+Companies tend to invest in small amounts and do so very strategically. more support may be found
 with increased localization and donations by sector. businesses have interest in creating more value
 through their philanthropy.
 

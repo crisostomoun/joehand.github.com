@@ -9,10 +9,21 @@ Today was a good morning so far yet I still feel distracted. It is pretty hard t
 without even thinking about the topic before hand. I need to devise a more complete system for me to
 complete blog posts.
 
-So far it goes something like this: -write random pretty shitty post that goes nowhere -stop
+So far it goes something like this: 
 
-It should probably go more like this: -Think about what I want to write about -Form the three main
-acts -Do a little research, gather relevant information -Write Post -Edit -Make pretty -Post
+* write random pretty shitty post that goes nowhere
+* stop
+
+It should probably go more like this: 
+
+* Think about what I want to write about 
+* Form the three main
+acts
+* Do a little research, gather relevant information
+* Write Post
+* Edit
+* Make pretty
+* Post
 
 Seven steps for success!
 

@@ -20,11 +20,11 @@ So lets dig in and start to think about it.
 
 ##Disrupting the libraries
 
-__What if library consumers checked books into the library?__
+**What if library consumers checked books into the library?**
 
-__What if a book could only be checked out once a certain number of people wanted to?__
+**What if a book could only be checked out once a certain number of people wanted to?**
 
-__What if libraries sold books to the publishers?__
+**What if libraries sold books to the publishers?**
 
 It is pretty difficult to understand where the line between feasible and absurd stands at this
 point. So much can change that anything is really possible in this industry. I guess that amplifies
