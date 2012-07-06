@@ -4,7 +4,7 @@ title: "Practicing Failure By Sitting"
 description: "Starting the meditation program from Budge." 
 category: thoughts 
 tags: [featured, meditation, habits, failure]
-published: false
+published: true
 ---
 {% include JB/setup %}
 
